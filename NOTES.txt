@@ -1,0 +1,33 @@
+//THINGS TO CLARIFY:
+//  N - Null
+//  0-hanging points check BEFORE or AFTER rounding
+//      0 - Before
+//      1 - After
+//  1-hanging points whole game or half
+//      0 - half (add half to non-declared team)
+//      1 - whole
+//  2-contra and re-contra
+//      0 - Only on AllTrumps
+//      1 - Always available
+//  3-what can you call after a contra?
+//      0 - only re-contra
+//      1 - higher bid or re-contra
+//
+//
+//rosen - 0-N, 1-N, 2-0, 3-N,
+//ioan - 0-1, 1-1, 2-N, 3-1,
+//
+//TO BE DONE:
+//  bidding's contra
+//
+//REFACTORING
+//
+//MAKE INSTANCE FOR EACH VERSION
+//
+//BOTS:
+//  get dominant cards of hand and play them first
+//  give lowest cards to opponents whenever possible
+//  awareness of teammate's changed bid
+//  bots get better cards (niki idea)
+
+
